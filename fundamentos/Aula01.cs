@@ -10,6 +10,10 @@ public class Aula01
         this.ExibirCabecalho();
         VariaveisEtiposDeDados variaveisEtiposDeDados = new VariaveisEtiposDeDados();
         variaveisEtiposDeDados.Executar();
+        Console.WriteLine();
+        // Operadores Aritiméticos
+        OperadoresAritimeticos operadoresAritimeticos = new OperadoresAritimeticos();
+        operadoresAritimeticos.executar();
 
 
 
