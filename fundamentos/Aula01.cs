@@ -14,6 +14,11 @@ public class Aula01
         // Operadores Aritiméticos
         OperadoresAritimeticos operadoresAritimeticos = new OperadoresAritimeticos();
         operadoresAritimeticos.executar();
+        // Operadores de Comparação
+        Console.WriteLine();
+        OperadoresComparacao operadoresComparacao = new OperadoresComparacao();
+        operadoresComparacao.Executar();
+        
 
 
 
