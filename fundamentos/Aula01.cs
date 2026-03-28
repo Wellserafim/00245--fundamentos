@@ -11,13 +11,20 @@ public class Aula01
         VariaveisEtiposDeDados variaveisEtiposDeDados = new VariaveisEtiposDeDados();
         variaveisEtiposDeDados.Executar();
         Console.WriteLine();
+
         // Operadores Aritiméticos
         OperadoresAritimeticos operadoresAritimeticos = new OperadoresAritimeticos();
         operadoresAritimeticos.executar();
+
         // Operadores de Comparação
         Console.WriteLine();
         OperadoresComparacao operadoresComparacao = new OperadoresComparacao();
         operadoresComparacao.Executar();
+
+        // Operadore Lógicos
+        Console.WriteLine();
+        OperadoresLogicos operadoresLogicos = new OperadoresLogicos();
+        operadoresLogicos.Executar();
         
 
 
